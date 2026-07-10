@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>AnimePulse</h1>
+    <button>Press it</button>
+    <script>
+        
+        const firstName = "anas";
+        const lastName = "tak";
+        const studentId = "B250389";
+        const year = 2;
+        const gpa = 8;
+        const cgpa = 8;
+
+
+
+
+        console.log(`--- Student Profile ---`);
+        console.log(`Name: ${firstName} ${lastName}`);
+        console.log(`ID: ${studentId}`);
+        console.log(`Year: ${year}`);
+        console.log(`GPA: ${gpa}`);
+
+        console.log(`Grade: ${calcGrade(cgpa)}`);
+
+        function calcGrade(cgpa){
+        if (cgpa >=9.0) return "O";
+        else if (cgpa >= 8.0) return "A+";
+        else if (cgpa >= 7.0) return "A";
+        else if (cgpa >= 6.0) return "B+";
+        else if (cgpa >= 5.0) return "B";
+        else if (cgpa >= 4.0) return "C";
+        else return "F";
+
+        }
+
+        
+
+        
+    </script>
+</body>
+</html>

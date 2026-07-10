@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    font-family:Arial;
+    text-align:center;
+
+    background:linear-gradient(#87CEEB,#90EE90);
+}
+
+h1{
+    color:white;
+    margin-top:20px;
+}
+
+.scoreboard{
+
+    width:400px;
+    margin:auto;
+    padding:15px;
+
+    background:white;
+
+    border-radius:15px;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    box-shadow:0px 0px 10px gray;
+}
+
+#gameArea{
+
+    width:900px;
+    height:500px;
+
+    margin:30px auto;
+
+    position:relative;
+
+    background:#d4f5b0;
+
+    border:5px solid green;
+
+    border-radius:20px;
+
+    overflow:hidden;
+}
+
+.fruit{
+
+    width:100px;
+
+    position:absolute;
+
+    cursor:pointer;
+
+    transition:0.2s;
+}
+
+.fruit:hover{
+
+    transform:scale(1.1);
+}
+
+#winner{
+
+    color:darkred;
+}

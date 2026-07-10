@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Apple vs Banana Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+
+<h1>🍎 Apple vs 🍌 Banana</h1>
+<h2>First to 20 Clicks Wins!</h2>
+
+<div class="scoreboard">
+    🍎 Apple :
+    <span id="appleScore">0</span>
+
+    &nbsp;&nbsp;&nbsp;
+
+    🍌 Banana :
+    <span id="bananaScore">0</span>
+</div>
+
+<div id="gameArea">
+
+    <img src="apple.png"
+    id="apple"
+    class="fruit"
+    onclick="appleClick()">
+
+    <img src="banana.png"
+    id="banana"
+    class="fruit"
+    onclick="bananaClick()">
+
+</div>
+
+<h2 id="winner"></h2>
+
+<script src="game.js"></script>
+
+</body>
+</html>
